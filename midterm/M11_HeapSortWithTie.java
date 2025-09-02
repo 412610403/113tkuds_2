@@ -91,17 +91,6 @@ public class M11_HeapSortWithTie {
             new Student(80, 4)
         };
 
-        System.out.println("排序前:");
-        for (Student s : students) {
-            System.out.println("分數: " + s.score + ", 索引: " + s.index);
-        }
-
-        heapSort(students);
-
-        System.out.println("排序後:");
-        for (Student s : students) {
-            System.out.println("分數: " + s.score + ", 索引: " + s.index);
-        }
     }
 }
 
